@@ -1,26 +1,26 @@
-public class FindAreaAndPerimeter {
+class FindAreaAndPerimeter extends  FindAreaAndPerimeterAbstract{
 
 public void initial(){
     //Do nothing
 }
 
-public double calculateSquareArea(double side){
-    double area = side * side;
-    return area;
+ double calculateSquareArea(double side){
+    double squareArea = side * side;
+    return squareArea;
 }
 
-public double calculateSquarePerimeter(double side) {
-    double perimeter = 4 * side;
-    return perimeter;
+ double calculateSquarePerimeter(double side) {
+    double squarePerimeter = 4 * side;
+    return squarePerimeter;
 }
 
-public double calculateRectangleArea(double length, double breadth){
-    double area = length * breadth;
-    return area;
+ double calculateRectangleArea(double length, double breadth){
+    double rectangleArea = length * breadth;
+    return rectangleArea;
 }
 
-public double calculateRectanglePerimeter(double length, double breadth){
-    double perimeter = 2 * (length + breadth);
-    return perimeter;
+ double calculateRectanglePerimeter(double length, double breadth){
+    double rectanglePerimeter = 2 * (length + breadth);
+    return rectanglePerimeter;
 }
 }
